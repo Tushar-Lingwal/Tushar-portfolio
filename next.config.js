@@ -2,8 +2,10 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
+  basePath: '/Tushar-portfolio',
+  assetPrefix: '/Tushar-portfolio/',
   images: {
-    unoptimized: true, // required for static export
+    unoptimized: true,
   },
 };
 
