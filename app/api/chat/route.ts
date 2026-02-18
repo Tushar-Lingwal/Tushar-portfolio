@@ -15,25 +15,39 @@ About Tushar:
 Keep answers short (2-4 sentences). If asked something you don't know about Tushar, say you're not sure but suggest contacting him directly.`;
 
 export async function POST(req: NextRequest) {
-  const { messages } = await req.json();
+  try {
+    const { messages } = await req.json();
 
-  const response = await fetch("https://api.anthropic.com/v1/messages", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "x-api-key": process.env.ANTHROPIC_API_KEY!,
-      "anthropic-version": "2023-06-01",
-    },
-    body: JSON.stringify({
-      model: "claude-3-haiku-20240307",
-      max_tokens: 300,
-      system: SYSTEM_PROMPT,
-      messages,
-    }),
-  });
+    if (!process.env.GROQ_API_KEY) {
+      return NextResponse.json({ error: "API key not configured" }, { status: 500 });
+    }
 
-  const data = await response.json();
-  return NextResponse.json({
-    reply: data.content[0].text,
-  });
+    const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${process.env.GROQ_API_KEY}`,
+      },
+      body: JSON.stringify({
+        model: "llama3-8b-8192",
+        max_tokens: 300,
+        messages: [
+          { role: "system", content: SYSTEM_PROMPT },
+          ...messages,
+        ],
+      }),
+    });
+
+    if (!response.ok) {
+      const err = await response.json();
+      return NextResponse.json({ error: err }, { status: response.status });
+    }
+
+    const data = await response.json();
+    const reply = data.choices[0].message.content;
+    return NextResponse.json({ reply });
+
+  } catch (error) {
+    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+  }
 }
