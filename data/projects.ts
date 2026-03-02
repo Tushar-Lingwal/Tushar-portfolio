@@ -15,10 +15,10 @@ export const projects: Project[] = [
     id: "llm-eval-framework",
     title: "LLM Evaluation Framework",
     description:
-      "A structured benchmarking system for comparative analysis of large language models across reasoning depth, factual accuracy, and instruction-following dimensions.",
+      "A structured benchmarking system for comparative analysis of large language models across reasoning depth, factual accuracy, and instruction-following.",
     longDescription:
-      "Designed and implemented a multi-dimensional evaluation pipeline that assesses LLMs on 8 distinct cognitive task categories. Incorporates automated prompt generation, response parsing, and statistical scoring with reproducible benchmark reports.",
-    stack: ["Python", "LangChain", "OpenAI API", "Pandas", "FastAPI", "Docker"],
+      "Designed and implemented a multi-dimensional evaluation pipeline that assesses LLMs on various different cognitive catogary like accuracy, completeness, context-missunderstanding, logical error and reasoning. Incorporates varous prompt designs (Instruct, CoT and Basic Prompting) to test the models across these doamins and statistical scoring them with reproducible benchmark reports.",
+    stack: ["Python", "LangChain", "LoRA", "Pandas", "SLM"],
     github: "https://github.com/tusharlingwal",
     category: "research",
     featured: true,
