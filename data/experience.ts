@@ -17,11 +17,11 @@ export const experiences: Experience[] = [
     location: "Remote / India",
     type: "internship",
     highlights: [
-      "Built end-to-end ML pipeline for supply chain risk scoring processing 50K+ daily operational records",
-      "Implemented LSTM-based demand forecasting model achieving RMSE of 0.12 on held-out test set",
+      "Built end-to-end ML pipeline for recommendation system",
+      "Team lead for the project group",
       "Designed automated data quality monitoring system flagging anomalies before model ingestion",
-      "Delivered interactive analytics dashboard using Plotly and Streamlit for non-technical stakeholders",
-      "Collaborated with cross-functional team to translate business KPIs into model evaluation criteria",
+      "Team member monitoring and progress tracking among the project",
+      "Collaborated with cross-functional team for model evaluation criteria",
     ],
   },
   {
@@ -35,8 +35,6 @@ export const experiences: Experience[] = [
       "Conducting primary research in LLM evaluation methodologies under faculty supervision",
       "Designing multi-dimensional benchmarking framework for comparative LLM analysis",
       "Investigating reasoning depth and prompting strategy effects on model performance",
-      "Developing reproducible evaluation harness with structured documentation protocols",
-      "Contributing to academic discussions on AI safety metrics and model calibration",
     ],
   },
 ];
