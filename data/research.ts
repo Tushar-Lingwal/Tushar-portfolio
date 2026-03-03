@@ -20,7 +20,7 @@ export const researchItems: ResearchItem[] = [
       "Evaluated DeepSeek-MoE-16B and Mistral-7B under 4-bit post-training quantization to simulate real-world deployment constraints.",
       "Analyzed the trade-offs between reduced bit-precision and logical consistency in resource-constrained environments.",
       "Demonstrated that 4-bit quantization does not significantly impair arithmetic accuracy, showing that precision is not the primary bottleneck for mathematical tasks.",
-      ]
+      ],
     tags: ["LLM", "Benchmarking", "NLP", "Evaluation", "Comparative Analysis"],
     status: "ongoing",
     year: "2026",
