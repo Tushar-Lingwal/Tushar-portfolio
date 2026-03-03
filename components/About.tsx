@@ -19,12 +19,7 @@ const skillCategories = [
   {
     label: "Research Methods",
     icon: BarChart2,
-    skills: ["Statistical Analysis", "Benchmarking", "Ablation Studies", "Annotation", "Metric Design", "Reproducibility"],
-  },
-  {
-    label: "Engineering",
-    icon: GitBranch,
-    skills: ["Python", "TypeScript", "Git / GitHub", "REST APIs", "System Design", "Linux"],
+    skills: ["Python", "Statistical Analysis", "Benchmarking", "Ablation Studies", "Annotation", "Metric Design", "Reproducibility", "Git / GitHub"],
   },
 ];
 
