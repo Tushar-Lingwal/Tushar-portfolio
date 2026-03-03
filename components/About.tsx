@@ -17,11 +17,6 @@ const skillCategories = [
     skills: ["PyTorch", "TensorFlow", "scikit-learn", "Computer Vision", "YOLOv8", "CNN / LSTM"],
   },
   {
-    label: "Data & Infra",
-    icon: Database,
-    skills: ["PostgreSQL", "Redis", "Apache Airflow", "Docker", "FastAPI", "Pandas / NumPy"],
-  },
-  {
     label: "Research Methods",
     icon: BarChart2,
     skills: ["Statistical Analysis", "Benchmarking", "Ablation Studies", "Annotation", "Metric Design", "Reproducibility"],
@@ -30,11 +25,6 @@ const skillCategories = [
     label: "Engineering",
     icon: GitBranch,
     skills: ["Python", "TypeScript", "Git / GitHub", "REST APIs", "System Design", "Linux"],
-  },
-  {
-    label: "ML Ops",
-    icon: Layers,
-    skills: ["MLflow", "Weights & Biases", "CI/CD", "Model Registry", "A/B Testing", "Monitoring"],
   },
 ];
 
