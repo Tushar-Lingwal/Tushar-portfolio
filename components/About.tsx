@@ -80,26 +80,24 @@ export default function About() {
               id="about-heading"
               className="text-4xl sm:text-5xl font-display text-[#F1F5F9] mb-6"
             >
-              Engineering Depth
+              Turning imagination into reality,
               <br />
-              <em className="italic text-[#94A3B8]">with Research Rigor</em>
+              <em className="italic text-[#94A3B8]">one calculation at a time</em>
             </h2>
             <div className="max-w-2xl space-y-4">
               <p className="text-[#94A3B8] leading-relaxed">
-                I'm a M.Tech researcher at NIT Uttarakhand specializing in AI systems
-                analysis and large language model evaluation. My work sits at the
-                intersection of empirical ML research and production-grade engineering.
+                I'm a M.Tech research scholar at NIT Uttarakhand specializing in AI system
+                analysis and large language model evaluation. My work is based on  ML research and system design engineering.
               </p>
               <p className="text-[#94A3B8] leading-relaxed">
-                My research investigates how prompting strategy, reasoning scaffold design,
-                and evaluation methodology choices systematically affect model behavior —
-                using structured benchmarks, statistical testing, and documentation-first
+                My research investigates how various prompting strategy, Model reasoning,
+                and evaluation choices systematically affect model behavior
+                using structured benchmarks, statistical testing, and documentation 
                 workflows to produce reproducible findings.
               </p>
               <p className="text-[#94A3B8] leading-relaxed">
-                Beyond research, I build end-to-end ML systems: from computer vision
-                pipelines deployed on edge hardware to supply chain risk analyzers
-                processing tens of thousands of daily records.
+                Beyond research, I have also build various projects in multiple domains check out my project section 
+                for these awesome projects. 
               </p>
             </div>
           </motion.div>
