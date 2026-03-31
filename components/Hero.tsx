@@ -166,7 +166,7 @@ export default function Hero() {
             ))}
             <span className="w-px h-5 bg-[#1E293B] mx-1" aria-hidden="true" />
             <span className="text-xs font-mono text-[#475569] tracking-widest">
-              tushar@nit.ac.in
+              tusharlingwal040@gmail.com
             </span>
           </motion.div>
         </motion.div>

@@ -24,7 +24,7 @@ export default function Footer() {
           {[
             { href: "https://github.com/tusharlingwal", icon: Github, label: "GitHub" },
             { href: "https://linkedin.com/in/tusharlingwal", icon: Linkedin, label: "LinkedIn" },
-            { href: "mailto:tushar@nit.ac.in", icon: Mail, label: "Email" },
+            { href: "mailto:tusharlingwal040@gmail.com", icon: Mail, label: "Email" },
           ].map(({ href, icon: Icon, label }) => (
             <a
               key={label}

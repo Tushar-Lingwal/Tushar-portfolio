@@ -24,7 +24,7 @@ interface FormErrors {
 const socialLinks = [
   { label: "GitHub", href: "https://github.com/tusharlingwal", icon: Github, handle: "@tusharlingwal" },
   { label: "LinkedIn", href: "https://linkedin.com/in/tusharlingwal", icon: Linkedin, handle: "in/tusharlingwal" },
-  { label: "Email", href: "mailto:tushar@nit.ac.in", icon: Mail, handle: "tushar@nit.ac.in" },
+  { label: "Email", href: "mailto:tusharlingwal040@gmail.com", icon: Mail, handle: "tusharlingwal040@gmail.com" },
 ];
 
 function validate(data: FormData): FormErrors {

@@ -10,7 +10,7 @@ About Tushar:
 - Achievements: National Technothon 2nd place, CodeChef Global Rank 977
 - Skills: Python, PyTorch, LangChain, GPT-4/Claude/Gemini, YOLOv8, FastAPI, Docker
 - Open to: research collaborations, ML engineering roles, AI consulting
-- Contact: tushar@nit.ac.in | github.com/tusharlingwal | linkedin.com/in/tusharlingwal
+- Contact: tusharlingwal040@gmail.com | github.com/tusharlingwal | linkedin.com/in/tusharlingwal
 
 Keep answers short (2-4 sentences). If asked something you don't know about Tushar, say you're not sure but suggest contacting him directly.`;
 
